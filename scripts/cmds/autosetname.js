@@ -76,7 +76,7 @@ module.exports = {
 			default: {
 				const enableOrDisable = args[0];
 				if (enableOrDisable !== "on" && enableOrDisable !== "off")
-					return message.reply(getLang("syntaxError"));
+					return message.reply(getLang("𝕤𝕪𝕟𝕥𝕒𝕩𝔼𝕣𝕣𝕠𝕣"));
 				await threadsData.set(event.threadID, enableOrDisable === "on", "settings.enableAutoSetName");
 				return message.reply(enableOrDisable == "on" ? getLang("turnOnSuccess") : getLang("turnOffSuccess"));
 			}
@@ -99,7 +99,7 @@ module.exports = {
 					await api.changeNickname(checkShortCut(configAutoSetName, uid, userName), event.threadID, uid);
 				}
 				catch (e) {
-					return message.reply(getLang("error"));
+					return message.reply(getLang("𝕖𝕣𝕣𝕠𝕣"));
 				}
 			}
 		};
