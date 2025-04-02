@@ -1,6 +1,6 @@
 const axios = require('axios');
 const baseApiUrl = async () => {
-  const base = await axios.get('https://raw.githubusercontent.com/Blankid018/D1PT0/main/baseApiUrl.json');
+  const base = await axios.get('https://github.com/Adil2641/D1PT0/blob/main/baseApiUrl.json');
   return base.data.api;
 };
 
