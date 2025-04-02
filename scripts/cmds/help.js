@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 🐐 | Goat Bot V2 ]";
+const doNotDelete = "【 ⋆˚🦋ʸᵒᵘʳ𝙼𝚊𝚔𝚒𝚖𝚊🎀🍓⋆˚ 】";
 /**
 * @author NTKhang
 * @author: do not delete it
@@ -42,7 +42,7 @@ module.exports = {
 			help: "╭─────────────⭓"
 				+ "\n%1"
 				+ "\n├─────⭔"
-				+ "\n│ Trang [ %2/%3 ]"
+				+ "\n|Trang [ %2/%3 ]"
 				+ "\n│ Hiện tại bot có %4 lệnh có thể sử dụng"
 				+ "\n│ » Gõ %5help <số trang> để xem danh sách các lệnh"
 				+ "\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó"
@@ -100,58 +100,58 @@ module.exports = {
 			pageNotFound: "Trang %1 không tồn tại"
 		},
 		en: {
-			help: "╭─────────────⭓"
+			help: "╔═════════════❒"
 				+ "\n%1"
-				+ "\n├─────⭔"
-				+ "\n│ Page [ %2/%3 ]"
-				+ "\n│ Currently, the bot has %4 commands that can be used"
-				+ "\n│ » Type %5help <page> to view the command list"
-				+ "\n│ » Type %5help to view the details of how to use that command"
-				+ "\n├────────⭔"
-				+ "\n│ %6"
-				+ "\n╰─────────────⭓",
-			help2: "%1├───────⭔"
-				+ "\n│ » Currently, the bot has %2 commands that can be used"
-				+ "\n│ » Type %3help <command name> to view the details of how to use that command"
-				+ "\n│ %4"
-				+ "\n╰─────────────⭓",
-			commandNotFound: "Command \"%1\" does not exist",
-			getInfoCommand: "╭── NAME ────⭓"
-				+ "\n│ %1"
-				+ "\n├── INFO"
-				+ "\n│ Description: %2"
-				+ "\n│ Other names: %3"
-				+ "\n│ Other names in your group: %4"
-				+ "\n│ Version: %5"
-				+ "\n│ Role: %6"
-				+ "\n│ Time per command: %7s"
-				+ "\n│ Author: %8"
-				+ "\n├── USAGE"
-				+ "\n│%9"
-				+ "\n├── NOTES"
-				+ "\n│ The content inside <XXXXX> can be changed"
-				+ "\n│ The content inside [a|b|c] is a or b or c"
-				+ "\n╰──────⭔",
-			onlyInfo: "╭── INFO ────⭓"
-				+ "\n│ Command name: %1"
-				+ "\n│ Description: %2"
-				+ "\n│ Other names: %3"
-				+ "\n│ Other names in your group: %4"
-				+ "\n│ Version: %5"
-				+ "\n│ Role: %6"
-				+ "\n│ Time per command: %7s"
-				+ "\n│ Author: %8"
-				+ "\n╰─────────────⭓",
-			onlyUsage: "╭── USAGE ────⭓"
-				+ "\n│%1"
-				+ "\n╰─────────────⭓",
-			onlyAlias: "╭── ALIAS ────⭓"
-				+ "\n│ Other names: %1"
-				+ "\n│ Other names in your group: %2"
-				+ "\n╰─────────────⭓",
-			onlyRole: "╭── ROLE ────⭓"
-				+ "\n│%1"
-				+ "\n╰─────────────⭓",
+				+ "\n╠═════❒"
+				+ "\n║ 𝗣𝗮𝗴𝗲🦋 《 %2/%3 》"
+				+ "\n║ 𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆, 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗵𝗮𝘀 %4 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝘁𝗵𝗮𝘁 𝗰𝗮𝗻 𝗯𝗲 𝘂𝘀𝗲𝗱"
+				+ "\n║ ➠ 𝗧𝘆𝗽𝗲 %5𝗵𝗲𝗹𝗽 〈𝗽𝗮𝗴𝗲〉 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱 𝗹𝗶𝘀𝘁"
+				+ "\n║ ➠ 𝗧𝘆𝗽𝗲 %5𝗵𝗲𝗹𝗽 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝗵𝗼𝘄 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱"
+				+ "\n╠════════❒"
+				+ "\n║ %6"
+				+ "\n╚═════════════❒",
+			help2: "%1╠═══════❒"
+				+ "\n║ » 𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆, 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗵𝗮𝘀 %2 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝘁𝗵𝗮𝘁 𝗰𝗮𝗻 𝗯𝗲 𝘂𝘀𝗲𝗱"
+				+ "\n║ » 𝐓𝐲𝐩𝐞 %3𝐡𝐞𝐥𝐩 <𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐧𝐚𝐦𝐞> 𝐭𝐨 𝐯𝐢𝐞𝐰 𝐭𝐡𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐨𝐟 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐚𝐭 𝐜𝐨𝐦𝐦𝐚𝐧𝐝"
+				+ "\n║ %4"
+				+ "\n╚═════════════❒",
+			commandNotFound: "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 \"%1\" 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭",
+			getInfoCommand: "╔══ ℕ𝔸𝕄𝔼 ════❒"
+				+ "\n║ %1"
+				+ "\n╠══ 𝕀ℕ𝔽𝕆"
+				+ "\n║ 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: %2"
+				+ "\n║ 𝐎𝐭𝐡𝐞𝐫 𝐧𝐚𝐦𝐞𝐬: %3"
+				+ "\n║ 𝐎𝐭𝐡𝐞𝐫 𝐧𝐚𝐦𝐞𝐬 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩: %4"
+				+ "\n║ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧: %5"
+				+ "\n║ 𝐑𝐨𝐥𝐞: %6"
+				+ "\n║ 𝐓𝐢𝐦𝐞 𝐩𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: %7s"
+				+ "\n║ 𝐀𝐮𝐭𝐡𝐨𝐫: %8"
+				+ "\n╠══ USAGE"
+				+ "\n║%9"
+				+ "\n╠══ NOTES"
+				+ "\n║ The content inside <XXXXX> can be changed"
+				+ "\n║ The content inside [a|b|c] is a or b or c"
+				+ "\n╚══════❒",
+			onlyInfo: "╔══ 𝕀ℕ𝔽𝕆 ════❒"
+				+ "\n║ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐧𝐚𝐦𝐞: %1"
+				+ "\n║ 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: %2"
+				+ "\n║ 𝐎𝐭𝐡𝐞𝐫 𝐧𝐚𝐦𝐞𝐬: %3"
+				+ "\n║ 𝐎𝐭𝐡𝐞𝐫 𝐧𝐚𝐦𝐞𝐬 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩: %4"
+				+ "\n║ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧: %5"
+				+ "\n║ 𝐑𝐨𝐥𝐞: %6"
+				+ "\n║ 𝐓𝐢𝐦𝐞 𝐩𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: %7s"
+				+ "\n║ 𝐀𝐮𝐭𝐡𝐨𝐫: %8"
+				+ "\n╚═════════════❒",
+			onlyUsage: "╔══ 𝕌𝕊𝔸𝔾𝔼 ════❒"
+				+ "\n║%1"
+				+ "\n╚═════════════❒",
+			onlyAlias: "╔══ 𝔸𝕃𝕀𝔸𝕊 ════❒"
+				+ "\n║ 𝐎𝐭𝐡𝐞𝐫 𝐧𝐚𝐦𝐞𝐬: %1"
+				+ "\n║ 𝐎𝐭𝐡𝐞𝐫 𝐧𝐚𝐦𝐞𝐬 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩: %2"
+				+ "\n╚═════════════❒",
+			onlyRole: "╔═══ ℝ𝕆𝕃𝔼 ════❒"
+				+ "\n║%1"
+				+ "\n╚═════════════❒",
 			doNotHave: "Do not have",
 			roleText0: "0 (All users)",
 			roleText1: "1 (Group administrators)",
@@ -236,7 +236,7 @@ module.exports = {
 
 				const returnArray = allPage[page - 1] || [];
 				const startNumber = (page - 1) * numberOfOnePage + 1;
-				msg += (returnArray || []).reduce((text, item, index) => text += `│ ${index + startNumber}${index + startNumber < 10 ? " " : ""}. ${item.data}\n`, '').slice(0, -1);
+				msg += (returnArray || []).reduce((text, item, index) => text += `🦋➳ ${index + startNumber}${index + startNumber < 10 ? " " : ""}. ${item.data}\n`, '').slice(0, -1);
 				await message.reply(getLang("help", msg, page, totalPage, commands.size, prefix, doNotDelete));
 			}
 			else if (sortHelp == "category") {
@@ -255,8 +255,8 @@ module.exports = {
 				}
 				arrayInfo.sort((a, b) => (a.category < b.category ? -1 : 1));
 				arrayInfo.forEach((data, index) => {
-					const categoryUpcase = `${index == 0 ? `╭` : `├`}─── ${data.category.toUpperCase()} ${index == 0 ? "⭓" : "⭔"}`;
-					data.names = data.names.sort().map(item => item = `│ ${item}`);
+					const categoryUpcase = `${index == 0 ? `╔` : `╠`}═══ ${data.category.toUpperCase()} ${index == 0 ? "❒" : "❒"}`;
+					data.names = data.names.sort().map(item => item = `🦋➳ ${item}`);
 					msg += `${categoryUpcase}\n${data.names.join("\n")}\n`;
 				});
 				message.reply(getLang("help2", msg, commands.size, prefix, doNotDelete));
@@ -310,10 +310,10 @@ module.exports = {
 				else
 					description = getLang("doNotHave");
 
-			let sendWithAttachment = false; // check subcommand need send with attachment or not
+			let sendWithAttachment = true; // check subcommand need send with attachment or not
 
 			if (args[1]?.match(/^-g|guide|-u|usage$/)) {
-				formSendMessage.body = getLang("onlyUsage", guideBody.split("\n").join("\n│"));
+				formSendMessage.body = getLang("onlyUsage", guideBody.split("\n").join("\n║"));
 				sendWithAttachment = true;
 			}
 			else if (args[1]?.match(/^-a|alias|aliase|aliases$/))
@@ -343,7 +343,7 @@ module.exports = {
 					roleText,
 					configCommand.countDown || 1,
 					author || "",
-					guideBody.split("\n").join("\n│")
+					guideBody.split("\n").join("\n║")
 				);
 				sendWithAttachment = true;
 			}
